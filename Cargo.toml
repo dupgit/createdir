@@ -2,6 +2,12 @@
 name = "createdir-bash-builtin"
 version = "0.1.0"
 edition = "2021"
+authors = ["Olivier Delhomme <olivier.delhomme@free.fr>"]
+description = "Bash builtin creating a directory and all its parents if necessary"
+repository = "https://github.com/dupgit/createdir"
+license = "MIT OR Apache-2.0"
+keywords = ["command line", "bash", "directory"]
+categories = ["command-line-utilities"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
