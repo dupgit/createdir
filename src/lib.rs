@@ -13,6 +13,7 @@ builtin_metadata!(
 
 #[derive(BuiltinOptions)]
 enum Opt {
+    #[allow(dead_code)] // The field here is used inside BuiltinOptions derivation
     #[opt = 'i']
     Identifier(String),
 }
